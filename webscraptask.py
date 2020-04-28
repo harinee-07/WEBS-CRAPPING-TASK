@@ -16,6 +16,7 @@ import os
 browser = webdriver.Chrome()
 #navigates you to the 100 celebrites in india website  page.
 browser.get('https://www.forbesindia.com/lists/2019-celebrity-100/1819/all')
+time.sleep(20)
 #waits for the browser to open all the dynamic contents
 wait = WebDriverWait(browser, 600) 
 #get html page version of the following webpage	
